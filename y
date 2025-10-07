@@ -4788,7 +4788,7 @@ function library:CreateSettingsTab(menu)
     mainSection:AddToggle({text = 'Watermark', flag = 'watermark_enabled', state = true,});
 
     mainSection:AddSlider({text = 'Custom X', flag = 'watermark_x', suffix = '%', min = 0, max = 100, increment = .1, value = 2});
-    mainSection:AddSlider({text = 'Custom Y', flag = 'watermark_y', suffix = '%', min = 0, max = 100, increment = .1, value = 25});
+    mainSection:AddSlider({text = 'Custom Y', flag = 'watermark_y', suffix = '%', min = 0, max = 100, increment = .1, value = 7.5});
 
     mainSection:AddToggle({text = 'Keybinds', flag = 'keybind_indicator', state = true, callback = function(bool)
         library.keyIndicator:SetEnabled(bool);
