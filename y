@@ -4573,7 +4573,7 @@ function library:init()
                 {self.cheatname, true},
                 {"Private", false},
                 {self.gamename, false},
-                {'0 fps', true},
+                {'0 fps', false},
                 {'0ms', false},
                 {'00:00:00', false},
                 {'M, D, Y', false},
@@ -4823,7 +4823,7 @@ themeSection:AddList({text = 'Presets', flag = 'preset_theme', values = themeStr
             end
         end
         setByPreset = false
-    end}):Select('Default');
+    end}):Select('Midnight');
 
     for i, v in pairs(library.theme) do
         themeSection:AddColor({text = i, flag = i, color = library.theme[i], callback = function(c3)
