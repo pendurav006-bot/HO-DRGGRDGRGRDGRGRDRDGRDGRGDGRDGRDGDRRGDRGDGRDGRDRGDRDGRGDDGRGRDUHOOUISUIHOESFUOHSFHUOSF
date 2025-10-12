@@ -4573,7 +4573,7 @@ function library:init()
                 {self.cheatname, true},
                 {"Private", false},
                 {self.gamename, false},
-                {'0 fps', false},
+                {'0 fps', true},
                 {'0ms', false},
                 {'00:00:00', false},
                 {'M, D, Y', false},
